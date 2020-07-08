@@ -14,18 +14,19 @@
     <div class="a">
         <div class="container text-center my-auto" id="content">
             <div class="content">
-                <h1>Number Guessing Name</h1>
+                <h1>Number Guessing Name (<span id="timecount"></span>)</h1>
                 <h3 id="remaining-guess">Remaining guesses</h3>
                 <input id="yourGuess" class="text-center" type="text" placeholder="Type your guess here">
                 <button class="btn btn-primary" onclick="guess()" id="guess">Guess</Button>
                 <button class="btn btn-danger" onclick="reset()" id="reset">Reset</button>
                 <h3>History: <span id="history"></span></h3>
+                <div id="notification">~~~~~~~~</div>
             </div>
         </div>
     </div>
 
-    <footer class="footer-copyright ">Made with ❤️ by
-        <a href="https://github.com/tuanphanfi">Tuan Phan</a> </footer>
+    <footer class="footer-copyright ">
+        <span>Made with ❤️ by <a href="https://github.com/tuanphanfi"> Tuan Phan</a> </span> </footer>
 
     <script src="js/main.js"></script>
 </body>
